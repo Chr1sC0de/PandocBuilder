@@ -1,2 +1,2 @@
-# PandocCompiler
-Some powershell code to make compiling pandoc with multiple folders easier
+# Pandoc Builder
+Some powershell code to make building pandoc stuff with multiple folders easier

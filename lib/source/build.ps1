@@ -16,7 +16,7 @@ while ($counter -lt $lenfiles){
     $counter += 1
 }
 
-$output_item = [System.IO.FileInfo]::new("$PSScriptRoot.FullName/../compiler.ps1")
+$output_item = [System.IO.FileInfo]::new("$PSScriptRoot.FullName/../PandocBuilder.ps1")
 Remove-Item $output_item
 New-Item $output_item
 

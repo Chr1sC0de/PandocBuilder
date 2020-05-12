@@ -1,2 +1,3 @@
 # Pandoc Builder
-Some powershell code to make building pandoc stuff with multiple folders easier
+
+Some Powershell code to make building markdown files with multiple folders and file easier

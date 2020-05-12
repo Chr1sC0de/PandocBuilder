@@ -226,7 +226,7 @@ class Compiler {
     }
 
 
-    [string] run(){
+    run(){
 
         $command = "pandoc"
 
@@ -241,8 +241,6 @@ class Compiler {
         }
 
         Invoke-Expression $command
-
-        return $command
 
     }
 

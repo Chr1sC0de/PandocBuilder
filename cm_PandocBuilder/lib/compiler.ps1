@@ -13,6 +13,9 @@ class Compiler {
     add_folder([DirectoryInfo]$path){
         $this.input_files += [FileFolder]::new($path).files
     }
+    add_folder([FileFolder]$path){
+        $this.input_files += $path.files
+    }
     add_folder([string]$path){
         $path = [DirectoryInfo]::new($path)
         $this.input_files += [FileFolder]::new($path).files

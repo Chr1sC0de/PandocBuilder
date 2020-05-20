@@ -243,6 +243,8 @@ class Compiler {
             $command += (" " + $file.as_option())
         }
 
+        Write-Output $command
+
         Invoke-Expression $command
 
     }
